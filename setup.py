@@ -83,7 +83,7 @@ if sys.platform == 'win32':
 if sys.platform == 'win32':
     platform_requires += ['pyqt5~=5.12.0']
 else:
-    platform_requires += ['pyqt5~=5.15.0']
+    platform_requires += ['pyqt5~=5.10.0']
 
 
 package_data = {
